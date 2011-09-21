@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:pax="http://schemas.android.com/apk/res/com.paxmodept.demo" 
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_weight="1"
+	    android:text="Tab 5" 
+	    android:gravity="center"/>    
+    
+    <com.paxmodept.demo.Toolbar 
+	    android:layout_width="fill_parent"
+	    android:layout_height="70dip" 
+	    pax:tab_id="tab5"/>
+    
+</LinearLayout>
