@@ -87,7 +87,7 @@ public class Tab3 extends ListActivity {
 	}
 
 	public ArrayList<XmlData> getXmlData(String searchTxt) {
-
+		// rss 경로 지정. searchTxt 는 채널 이름
 		String m_sConnectUrl = "http://gdata.youtube.com/feeds/base/users/" + searchTxt + "/uploads?orderby=updated&alt=rss&client=ytapi-youtube-rss-redirect&v=2";
 
 		XmlData xmlData = null;
