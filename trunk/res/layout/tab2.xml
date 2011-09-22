@@ -5,14 +5,14 @@
     android:orientation="vertical"
     android:background="@android:color/white"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent" android:weightSum="1">
  
     <com.google.android.maps.MapView
 	    android:id="@+id/mapview"
 	    android:layout_width="fill_parent"
 	    android:layout_height="280dip"
 	    android:clickable="true"
-	    android:apiKey="0oet2s0L9AwWWQW_-RiVZ6tGJ5c8xs2fseCvL3Zg"/>
+	    android:apiKey="0oet2s0L9AwWWQW_-RiVZ6tGJ5c8xs2fseCvL3Zg" android:layout_weight="1.00"/>
     
     <com.paxmodept.demo.Toolbar 
 	    android:layout_width="fill_parent"

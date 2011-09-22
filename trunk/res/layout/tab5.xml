@@ -6,13 +6,8 @@
     android:background="@android:color/white"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-  
-	<TextView  
-	    android:layout_width="fill_parent" 
-	    android:layout_height="wrap_content" 
-	    android:layout_weight="1"
-	    android:text="Tab 5" 
-	    android:gravity="center"/>    
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_weight="1" android:src="@drawable/tab2"></ImageView>
+   
     
     <com.paxmodept.demo.Toolbar 
 	    android:layout_width="fill_parent"

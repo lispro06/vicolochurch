@@ -23,7 +23,9 @@ containing a value of this type.
         public static final int backgound_states=0x7f020001;
         public static final int icon=0x7f020002;
         public static final int logo2=0x7f020003;
-        public static final int text_states=0x7f020004;
+        public static final int tab1=0x7f020004;
+        public static final int tab2=0x7f020005;
+        public static final int text_states=0x7f020006;
     }
     public static final class id {
         public static final int dataItem01=0x7f050000;
