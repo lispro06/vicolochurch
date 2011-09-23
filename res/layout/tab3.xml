@@ -6,27 +6,12 @@
     android:background="@android:color/white"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-
-		<ImageView android:layout_width="fill_parent"
-			android:layout_height="75dip" android:gravity="center"
-			android:background="@drawable/logo2" />
-		
-		<FrameLayout android:id="@android:id/tabcontent"
-			android:layout_width="fill_parent" android:layout_height="fill_parent"
-			android:layout_weight="1" android:paddingTop="2dip">
-			
-		</FrameLayout>
-		
-	<TextView  
-	    android:layout_width="fill_parent" 
-	    android:layout_height="wrap_content" 
-	    android:layout_weight="1"
-	    android:text="Tab 4" 
-	    android:gravity="center"/>    
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_weight="1" android:src="@drawable/tab2"></ImageView>
+   
     
     <com.paxmodept.demo.Toolbar 
 	    android:layout_width="fill_parent"
 	    android:layout_height="70dip" 
-	    pax:tab_id="tab4"/>
-	</LinearLayout>
-
+	    pax:tab_id="tab5"/>
+    
+</LinearLayout>

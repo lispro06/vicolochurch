@@ -86,7 +86,7 @@ public class Tab4 extends ListActivity {
 
 	public ArrayList<XmlData> getXmlData(String searchTxt) {
 		// rss 경로 지정. searchTxt 는 채널 이름
-		String m_sConnectUrl = "http://vimeo.com/" + searchTxt + "/videos/rss";
+		String m_sConnectUrl = "http://lispro06.woweb.net/dw/Me2/vimeo.php?id="+searchTxt;
 
 		XmlData xmlData = null;
 
@@ -120,10 +120,13 @@ public class Tab4 extends ListActivity {
 						xmlData = new XmlData();
 						xmlData.d_title = xpp.nextText();
 					}
+					if (sTag.equals("pubDate")) {
+						xmlData.d_pubdate = xpp.nextText();
+					}
 					if (sTag.equals("link")) {
 						xmlData.d_link = xpp.nextText();
 					}
-					if (sTag.equals("creator")) {
+					if (sTag.equals("dc:creator")) {
 						// Log.e("title_getText",xpp.nextText());
 						xmlData.d_author = xpp.nextText();
 					}
