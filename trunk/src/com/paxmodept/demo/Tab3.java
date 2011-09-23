@@ -1,7 +1,8 @@
 package com.paxmodept.demo;
 
-//import android.app.Activity;
-//import android.os.Bundle;
+
+import android.app.Activity;
+import android.os.Bundle;
 import java.io.InputStream;
 
 import java.net.URL;
@@ -20,7 +21,6 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -51,7 +51,7 @@ public class Tab3 extends ListActivity {
 		// setContentView.
 		requestWindowFeature(Window.FEATURE_CONTEXT_MENU);
 
-		//setContentView(R.layout.tab3);
+	//	setContentView(R.layout.tab3);
 
 		// myListview = (ListView) findViewById(R.id.myListview);
 
@@ -125,7 +125,7 @@ public class Tab3 extends ListActivity {
 					if (sTag.equals("link")) {
 						xmlData.d_link = xpp.nextText();
 					}
-					if (sTag.equals("creator")) {
+					if (sTag.equals("author")) {
 						// Log.e("title_getText",xpp.nextText());
 						xmlData.d_author = xpp.nextText();
 					}
