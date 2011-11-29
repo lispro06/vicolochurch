@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:pax="http://schemas.android.com/apk/res/com.paxmodept.demo" 
+	xmlns:pax="http://schemas.android.com/apk/res/com.paxmodept.demo"
+	android:id="@+id/zoom" 
     android:orientation="vertical"
     android:background="@android:color/white"
     android:layout_width="fill_parent"
@@ -12,7 +13,7 @@
 	    android:layout_width="fill_parent"
 	    android:layout_height="280dip"
 	    android:clickable="true"
-	    android:apiKey="0oet2s0L9AwWWQW_-RiVZ6tGJ5c8xs2fseCvL3Zg" android:layout_weight="1.00"/>
+	    android:apiKey="0Z79_hRB7p4kI30M181qAqm17vKUAtz0gH9kfmQ" android:layout_weight="1.00"/>
     
     <com.paxmodept.demo.Toolbar 
 	    android:layout_width="fill_parent"
