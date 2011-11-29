@@ -49,7 +49,7 @@ public class Tab4 extends ListActivity {
 		// setContentView.
 		requestWindowFeature(Window.FEATURE_CONTEXT_MENU);
 
-		//setContentView(R.layout.tab3);
+		//setContentView(R.layout.tab4);
 
 		// myListview = (ListView) findViewById(R.id.myListview);
 
